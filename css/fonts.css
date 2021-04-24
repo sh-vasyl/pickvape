@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "RL";
+	src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot");
+	src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Roboto/RobotoLight/RobotoLight.woff") format("woff"),
+			 url("../fonts/Roboto/RobotoLight/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Rouble";
+	src: url("../fonts/PTRoubleSans/RUBDC_0.otf");
+	src: url("../fonts/PTRoubleSans/RUBDC_0.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PTRoubleSans/RUBDC_0.woff") format("woff"),
+			 url("../fonts/PTRoubleSans/RUBDC_0.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RR";
+	src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/Roboto/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/Roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RT";
+	src: url("../fonts/Roboto/Roboto-Thin/Roboto-Thin.eot");
+	src: url("../fonts/Roboto/Roboto-Thin/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Roboto/Roboto-Thin/Roboto-Thin.woff") format("woff"),
+			 url("../fonts/Roboto/Roboto-Thin/Roboto-Thin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RM";
+	src: url("../fonts/Roboto/RobotoMedium/RobotoMedium.eot");
+	src: url("../fonts/Roboto/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Roboto/RobotoMedium/RobotoMedium.woff") format("woff"),
+			 url("../fonts/Roboto/RobotoMedium/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RBK";
+	src: url("../fonts/Roboto/RobotoBlack/RobotoBlack.eot");
+	src: url("../fonts/Roboto/RobotoBlack/RobotoBlack.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Roboto/RobotoBlack/RobotoBlack.woff") format("woff"),
+			 url("../fonts/Roboto/RobotoBlack/RobotoBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SET";
+	src: url("../fonts/SeroPro/SeroPro-Extrathin/SeroPro-Extrathin.eot");
+	src: url("../fonts/SeroPro/SeroPro-Extrathin/SeroPro-Extrathin.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/SeroPro/SeroPro-Extrathin/SeroPro-Extrathin.woff") format("woff"),
+			 url("../fonts/SeroPro/SeroPro-Extrathin/SeroPro-Extrathin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ST";
+	src: url("../fonts/SeroPro/SeroPro-Thin/SeroPro-Thin.eot");
+	src: url("../fonts/SeroPro/SeroPro-Thin/SeroPro-Thin.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/SeroPro/SeroPro-Thin/SeroPro-Thin.woff") format("woff"),
+			 url("../fonts/SeroPro/SeroPro-Thin/SeroPro-Thin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

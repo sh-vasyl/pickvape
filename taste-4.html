@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Pick Vape</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/Magnific-Popup/magnific-popup.css">
+	<link rel="stylesheet" href="fonts/soc/css/soc.css">
+	<link rel="stylesheet" href="libs/OwlCarousel2-2.2.1/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="libs/select/select2.min.css">
+	<link rel="stylesheet" href="libs/sliderLine/nouislider.min.css">
+	
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+<body class="main-page">
+
+	<!-- start HEADER -->
+	<header class="header">
+		<div class="header__head menu_fix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-3 col-xs-7">
+						<div class="header__logo logo">
+							<a href="index.html" class="logo__link">
+								<img src="img/SVG/logo.svg" alt="" class="logo__img">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2 col-md-push-8 col-sm-7 hidden-xs">
+						<a href="login.html" class="btn btn_small btn_white btn-login">Войти</a>
+					</div>
+					<div class="hidden-lg hidden-md col-sm-2 col-xs-5 clearfix">
+						<button type="submit" class="toggle_mnu">
+							<span class="sandwich">
+								<span class="sw-topper"></span>
+								<span class="sw-bottom"></span>
+								<span class="sw-footer"></span>
+							</span>
+						</button>
+						<a href="login.html" class="login-icon__wrap"><span class="login__icon"></span></a>
+					</div>
+					<div class="col-md-8 col-md-pull-2 col-xs-12">
+						<ul class="nav header__nav">
+							<li class="nav__item"><a href="index.html" class="nav__link">О проекте</a></li>
+							<li class="nav__item"><a href="#to_set-order" class="nav__link nav__link_active">Заказать</a></li>
+							<li class="nav__item"><a href="rate.html" class="nav__link">Рейтинг</a></li>
+							<li class="nav__item"><a href="del-pay.html" class="nav__link">Доставка и оплата</a></li>
+							<li class="nav__item"><a href="FAQ.html" class="nav__link">FAQ</a></li>
+							<li class="nav__phone hidden-lg hidden-md"><a href="#"><img src="img/header/phone.png" alt=""></a></li>
+								<a href="login.html" class="btn btn_small btn_black btn-menu hidden-lg hidden-md">Войти</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end HEADER -->
+
+	<!-- start CHOOSE TASTE 2 -->
+	<section class="ch-taste pages">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="taste__nav clearfix">
+						<a href="taste-1.html" class="tni-1 taste-nav__item taste-nav__item_active taste-nav__item_hidd">
+							<span class="taste-nav__count">1</span>
+							<span class="taste-nav__text">Выбор вкуса</span>
+						</a>
+
+						<a href="taste-2.html" class="tni-2 taste-nav__item taste-nav__item_active taste-nav__item_hidd">
+							<span class="taste-nav__count">2</span>
+							<span class="taste-nav__text">Уточнение</span>
+						</a>
+
+						<a href="taste-3.html" class="tni-3 taste-nav__item taste-nav__item_active">
+							<span class="taste-nav__count">3</span>
+							<span class="taste-nav__text">Исключение</span>
+						</a>
+
+						<a href="taste-4.html" class="tni-4 taste-nav__item taste-nav__item_active">
+							<span class="taste-nav__count">4</span>
+							<span class="taste-nav__text">Крепость</span>
+						</a>
+
+						<a href="taste-5.html" class="tni-5 tni-5-2 taste-nav__item">
+							<span class="taste-nav__count">5</span>
+							<span class="taste-nav__text">Размер набора</span>
+						</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="pages__title ch-taste__title">содержание <br>никотина</h2>
+					<div class="row">
+						<div class="col-sm-6">
+							<p class="pages__desc ch-taste__desc">Используйте слайдер для выбора желаемого уровня содержания никотина.</p>
+						</div>
+						<div class="col-sm-6">
+							<div id="range-slider" class="r-slider"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="taste__btns">
+				<div class="row">
+					<div class="col-xs-12 clearfix">
+						<a href="taste-3.html" class="btn btn_big btn_black btn-prev"><span class="btn__arrow btn__arrow_left"></span><span class="btn-txt">Назад</span></a>
+						<a href="taste-5.html" class="btn btn_big btn_yellow btn-next"><span class="btn-txt">Далее</span><span class="btn__arrow btn__arrow_right"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end CHOOSE TASTE 2 -->
+
+
+	<!-- start FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="#form-callback" class="phone footer__phone">+7 495 132 64 07</a>
+				</div>
+				<div class="col-md-4">
+					<div class="footer__soc">
+						<a href="#" target="_blank" class="soc__link"><img src="img/SVG/footer_fb.svg" class="soc__icon soc-fb" alt=""></a>
+						<a href="#" target="_blank" class="soc__link"><img src="img/SVG/footer_vk.svg" class="soc__icon soc-vk" alt=""></a>
+						<a href="#" target="_blank" class="soc__link"><img src="img/SVG/footer_insta.svg" class="soc__icon soc-insta" alt=""></a>
+						<a href="#" target="_blank" class="soc__link"><img src="img/SVG/footer_utube.svg" class="soc__icon soc-utube" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer__logo logo">
+						<a href="#" class="logo__link">
+							<img src="img/SVG/footer_logo.svg" alt="" class="logo__img">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="created-by">Сайт разработан  ратующим за здоровый образ жизни <a href="#">дизайн-бюро Pixl,</a> в городе на красной горе, 2017 г.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end FOOTER -->
+
+
+<!-- start POPUP's -->
+	<div class="hidden">
+		<form class="callback" id="form-callback" method="post" role="form">
+			<p class="callback__title">Заказать звонок</p>
+			<div class="input__wrap">
+				<p class="input__text">Ваше имя</p>
+				<input type="text" class="input callback__input" name="name" placeholder="Имя" required>
+			</div>
+			<div class="input__wrap">
+				<p class="input__text">Телефон</p>
+				<input type="text" class="input callback__input phone__input" name="phone" required>
+				</div>
+			<div class="btn__wrap">
+				<button type="submit" class="btn btn_medium btn_black callback__btn">Отправить</button>
+			</div>
+		</form>
+	</div>
+	<!-- end POPUP's -->
+	
+
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/Validation/dist/jquery.validate.min.js"></script>
+	<script src="libs/OwlCarousel2-2.2.1/owl.carousel.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animateNumber/jquery.animateNumber.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/select/select2.min.js"></script>
+	<script src="libs/sliderLine/nouislider.min.js"></script>
+	
+	<script src="js/common.js"></script>
+	
+</body>
+</html>
